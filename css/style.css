@@ -1,0 +1,122 @@
+html, body {
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+	color: #282923;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Header Section Starts */
+header {
+	background-color: #FFCD45;
+	color: #282923;
+	padding: 5px 20px;
+}
+.fixed-top {
+	background-color: #FFCD45;
+}
+.custom_navbar ul li {
+	margin-left: 10px;
+	border: none;
+}
+.custom_navbar ul li a {
+	font-weight: 700;
+	color: #282923!important;
+	border: none;
+	transition: .5s ease;
+}
+.custom_navbar ul li a:hover {
+	color: #fff!important;
+}
+.nav_account_btn {
+	margin-left: 50px;
+}
+.nav_account_btn li a {
+	font-weight: 700;
+	border: 1px solid #282923;
+	border-radius: 20px;
+	padding: 2px 22px!important;
+	transition: .5s ease;
+}
+.nav_account_btn li a:hover {
+	background-color: #000;
+	color: #FFF!important;
+}
+
+/* Header Section Ends */
+/* Banner Section Starts */
+.banner {
+	padding: 100px 0;
+	background-color: #EBE5D4;
+}
+.banner_text h1 {
+	margin-top: 30px;
+	font-weight: 700;
+	font-size: 40px;
+}
+.banner_text p {
+	width: 85%;
+	font-weight: inherit;
+	margin: 30px 0;
+}
+.banner_btn {
+	font-weight: 700;
+	border: 1px solid #282923;
+	border-radius: 20px;
+	padding: 5px 25px!important;
+	transition: .5s ease;
+}
+.banner_btn:hover {
+	background-color: #000;
+	color: #FFF!important;
+}
+/* Banner Section Ends */
+/* Service Section Starts */
+#services {
+	padding: 100px 0;
+	background-color: #F4F5F6;
+}
+.common_title h1 {
+	font-weight: 700;
+	font-size: 30px;
+}
+.common_title p {
+	width: 60%;
+	margin: 20px auto;
+}
+.common_title hr {
+	width: 80px;
+	margin: 0 auto;
+	border: 2px solid #FFCD45;
+}
+.service_content {
+	margin: 50px 0;
+}
+.service_content i {
+	color: #FFCD45;
+	font-size: 50px;
+}
+.service_content h4 {
+	font-weight: 700;
+}
+/* Service Section Ends */
+/* Parallax Image Height */
+.parallax-window {
+	height: 350px;
+}
+/* Parallax Image Height */
+/* Team Section Starts */
+#team {
+	padding: 100px 0;
+	background-color: #F4F5F6;
+}
+.team_content {
+	margin: 40px 0;
+}
+/* Team Section Ends */
