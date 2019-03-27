@@ -28,7 +28,6 @@ header {
 .custom_navbar ul li a {
 	font-weight: 700;
 	color: #282923!important;
-	border: none;
 	transition: .5s ease;
 }
 .custom_navbar ul li a:hover {
