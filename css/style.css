@@ -14,12 +14,14 @@ a {
 
 /* Header Section Starts */
 header {
-	background-color: #FFCD45;
 	color: #282923;
-	padding: 5px 20px;
 }
 .fixed-top {
-	background-color: #FFCD45;
+	background-color: #F4F5F6;
+	padding: 0px 80px;
+}
+.custom_brand img {
+	width: 50%;
 }
 .custom_navbar ul li {
 	margin-left: 10px;
@@ -31,7 +33,7 @@ header {
 	transition: .5s ease;
 }
 .custom_navbar ul li a:hover {
-	color: #fff!important;
+	color: #FFCD45!important;
 }
 .nav_account_btn {
 	margin-left: 50px;
@@ -45,13 +47,12 @@ header {
 }
 .nav_account_btn li a:hover {
 	background-color: #000;
-	color: #FFF!important;
 }
 
 /* Header Section Ends */
 /* Banner Section Starts */
 .banner {
-	padding: 100px 0;
+	padding: 150px 0 100px 0;
 	background-color: #EBE5D4;
 }
 .banner_text h1 {
@@ -106,7 +107,7 @@ header {
 }
 /* Service Section Ends */
 /* Parallax Image Height */
-.parallax-window {
+.first_parallax {
 	height: 350px;
 }
 /* Parallax Image Height */
@@ -114,6 +115,9 @@ header {
 #team {
 	padding: 100px 0;
 	background-color: #F4F5F6;
+}
+.team_image {
+	padding: 70px 0 0 0;
 }
 .team_content {
 	margin: 40px 0;
