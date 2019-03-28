@@ -217,17 +217,13 @@ header {
 	color: #282923!important;
 }
 .contact_social a i {
-	font-size: 14px;
-	padding: 8px 10px;
-	border-radius: 50%;
+	font-size: 35px;
 	color: #000;
 	font-weight: 700;
-	border: 2px solid #000;
 	transition: .5s ease;
 }
 .contact_social a i:hover {
 	color: #FFCD45!important;
-	background-color: #000;
 }
 #contact h5 {
 	font-size: 20px;
