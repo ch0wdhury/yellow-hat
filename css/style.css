@@ -220,6 +220,8 @@ header {
 	font-size: 14px;
 	padding: 8px 10px;
 	border-radius: 50%;
+	color: #000;
+	font-weight: 700;
 	border: 2px solid #000;
 	transition: .5s ease;
 }
