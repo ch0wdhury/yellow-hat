@@ -11,6 +11,9 @@ html, body {
 a {
 	text-decoration: none;
 }
+a:hover {
+	text-decoration: none;
+}
 
 /* Header Section Starts */
 header {
@@ -116,10 +119,128 @@ header {
 	padding: 100px 0;
 	background-color: #F4F5F6;
 }
-.team_image {
-	padding: 70px 0 0 0;
-}
 .team_content {
 	margin: 40px 0;
 }
 /* Team Section Ends */
+/* Pricing Section Starts */
+#pricing {
+	padding: 100px 0;
+	background-color: #F4F5F6;
+}
+.card {
+  border: none;
+  border-radius: 16px;
+  transition: all 0.2s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+}
+.card hr {
+  margin: 1.5rem 0;
+}
+.card .card-title {
+  margin: 8px 0;
+  font-size: 15px;
+  letter-spacing: 1.6px;
+  font-weight: bold;
+}
+.card .card-price {
+  font-size: 48px;
+  margin: 0;
+}
+.card .card-price .period {
+  font-size: 13px;
+}
+.card ul li {
+  margin-bottom: 16px;
+}
+.card .text-muted {
+  opacity: 0.7;
+}
+.card .btn {
+  font-size: 80%;
+  border-radius: 80px;
+  letter-spacing: 1.6px;
+  font-weight: bold;
+  padding: 16px;
+  opacity: 0.7;
+  transition: all 0.5s;
+}
+.card_btn {
+  	border: 1px solid #282923;
+	border-radius: 20px;
+}
+.card_btn:hover {
+  	background-color: #000;
+  	color: #FFCD45;
+}
+/* Hover Effects on Card */
+@media (min-width: 992px) {
+.card:hover {
+    margin-top: -4px;
+    margin-bottom: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+ }
+.card:hover .btn {
+    opacity: 1;
+  }
+}
+/* Pricing Section Ends */
+/* Clients Section Starts */
+#clients {
+	padding: 100px 0;
+	background-color: #F4F5F6;
+}
+.owl-carousel {
+	margin-top: 50px;
+}
+.owl-carousel img {
+	width: 10%!important;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.testimonial_body {
+	font-style: italic;
+	padding-top: 10px;
+	width: 50%;
+	margin: 0 auto;
+}
+.client_name {
+	padding-top: 10px;
+	color: #025291;
+}
+/* Clients Section Ends */
+/* Contact Section Starts */
+#contact {
+	padding: 50px 0;
+}
+.contact_sitemap ul li a {
+	color: #282923!important;
+}
+.contact_social a i {
+	font-size: 14px;
+	padding: 8px 10px;
+	border-radius: 50%;
+	border: 2px solid #000;
+	transition: .5s ease;
+}
+.contact_social a i:hover {
+	color: #FFCD45!important;
+	background-color: #000;
+}
+#contact h5 {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0 0 20px 0;
+}
+/* Contact Section Ends */
+/* Footer Starts Here */
+footer {
+	background-color: #F4F5F6;
+	border-top: 1px solid #FFCD45;
+	padding: 10px;
+}
+footer img {
+	width: 10%;
+	padding-bottom: 10px;
+}
+/* Footer Ends Here */

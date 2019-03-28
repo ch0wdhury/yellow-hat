@@ -14,3 +14,11 @@
         });
       } 
     });
+    $('.owl-carousel').owlCarousel({
+      autoplay: true,
+      items:1,
+      animateOut: 'fadeOut',
+      lazyLoad:true,
+      loop:true,
+      margin:10
+    });
