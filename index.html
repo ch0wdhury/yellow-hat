@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap & Google Font & Fontawesome CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 
@@ -21,10 +21,10 @@
 
     <title>YELLOW HAT - Cnstruction Management</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="5">
 
       <!-- Header Section Starts -->
-    <header>
+    <header id="top_bar">
       <div class="container-fluid">
         <!-- Navbar Section Starts -->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -36,7 +36,7 @@
         <div class="collapse navbar-collapse custom_navbar" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="#top_bar">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#services">Services</a>
@@ -69,17 +69,12 @@
     <section class="banner animatedParent">
       <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-8">
               <div class="banner_text animated fadeIn">
                 <h1>YELLOW HAT</h1>
                 <h2>CONSTRUCTION MANAGEMENT</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi recusandae hic ipsa, distinctio autem earum ullam. Suscipit cupiditate, sapiente inventore, quam a vitae consectetur laudantium? Lorem ipsum dolor sit amet Lorem ipsum dolor sit.</p>
                 <a class="btn banner_btn" href="#">Learn More</a>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="banner_image animated bounceInRight">
-                <img class="img-fluid" src="images/construction-banner-2.png" alt="Constructions">
               </div>
             </div>
         </div>
@@ -351,7 +346,7 @@
     <section id="contact">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 text-center">
+          <div class="offset-md-1 col-md-3">
             <div class="contact_sitemap">
               <h5>Site Map</h5>
               <ul class="list-unstyled">
@@ -362,19 +357,19 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="contact_social text-center">
+          <div class="offset-md-1 col-md-3">
+            <div class="contact_social">
               <h5>Social Links</h5>
               <ul class="list-inline">
-                <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                <li class="list-inline-item"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
                 <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
-                <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
               </ul>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="contact_details text-center">
+          <div class="offset-md-1 col-md-3">
+            <div class="contact_details">
               <h5>Contact</h5>
                 <ul class="list-unstyled">
                   <li><i class="fas fa-map-marker-alt"></i> 123 Some street, Somewhere</li>
